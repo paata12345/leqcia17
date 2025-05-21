@@ -87,8 +87,10 @@ if (temp >= 30) {
   temp = "ცხელა, მზიანი ამინდია";
 } else if (temp <= 0) {
   temp = "ცივა, ცუდი ამინდია";
-} else if (temp > 0 < 30) {
+} else if (temp > 0 && temp < 30) {
   temp = "ნორმალური ტემპერატურაა";
+} else {
+  console.log("ra moqmedebaa ra vitarebaa");
 }
 
 console.log(temp);
